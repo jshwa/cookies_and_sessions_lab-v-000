@@ -5,6 +5,7 @@ class ProductsController < ApplicationController
   end
 
   def add
+    raise cart.inspect
     cart << params[:item]
     redirect_to 'index'
   end
