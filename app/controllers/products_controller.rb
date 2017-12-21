@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
 
   def index
-    @items =  session[:cart]
+    @items = cart
   end
 
   def add
