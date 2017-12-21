@@ -2,6 +2,7 @@ class ProductsController < ApplicationController
 
   def index
     @cart = cart
+raise @cart.inspect
   end
 
   def add
