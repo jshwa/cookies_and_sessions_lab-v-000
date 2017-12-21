@@ -5,7 +5,6 @@
 
 <h2>Your Cart</h2>
 <ul>
-<%= raise session[:cart].inspect %>
 <% @cart.each do |item| %>
   <li><%= item %></li>
   <% end %>
