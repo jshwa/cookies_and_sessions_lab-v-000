@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
 
   def index
-    raise session[:cart]
+    raise session[:cart].inspect
     @items = cart
   end
 
