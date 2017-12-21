@@ -8,6 +8,6 @@ class ProductsController < ApplicationController
 
     cart << params[:item]
     raise cart.inspect
-    redirect_to 'index'
+    redirect_to 'root'
   end
 end
