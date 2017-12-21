@@ -7,6 +7,6 @@ class ProductsController < ApplicationController
   def add
 
     cart << params[:item]
-    redirect_to 'root'
+    redirect_to 'root_path'
   end
 end
